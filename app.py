@@ -7,13 +7,14 @@ payload = {
     'name': 'Status Quo'
 }
 index_payload = {
-    'name': 'I m CCarla'
+    'name': 'I am Charlie Meadows'
 }
 
 
 @app.route('/rockband')
 def rock_band():
     return json.dumps(payload)
+
 
 @app.route('/')
 def index():
